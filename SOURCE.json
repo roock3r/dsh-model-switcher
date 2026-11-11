@@ -1,10 +1,10 @@
 {
   "version": 1,
   "canonicalRepository": "https://github.com/roock3r/dsh-plugins",
-  "canonicalCommit": "900b95ffabfadd45dfa54f6955381a9fb186bdcc",
+  "canonicalCommit": "1d5cdf83edb2691879ac22835647622d15ae542c",
   "plugin": "dsh-model-switcher",
   "canonicalDirectory": "plugins/dsh-model-switcher",
-  "sourceTreeSha256": "7e14c5a4b90f77cb3a7742d04e3dd234683ba57e0c4047769b9f412c750454f8",
+  "sourceTreeSha256": "24e15d057853ce5372cbe178b355bd809128d31718316139e880eccde5b79a8a",
   "sources": [
     {
       "path": ".gitattributes",
@@ -32,7 +32,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "d29b67d3722567203ea36000c4f7dc3aa829ce730e5aa849ba59f6bfa852b0b6"
+      "sha256": "b05336f6b3bfbd87486f10585fd781ff3010c6d5490a78c8bd9a5f9b9a22dae4"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -52,7 +52,7 @@
     },
     {
       "path": "docs/publishing.md",
-      "sha256": "86ed075b60f7807462ceae7dacf4444b3e0a5368208b728c14e2f1100314ceaa"
+      "sha256": "2c2a0b097a16ae8d8af14cbeafbc0a43d8f7aac6ad055ee9880d36904801f00b"
     },
     {
       "path": "docs/standalone-distributions.md",
@@ -68,11 +68,11 @@
     },
     {
       "path": "docs/validation.md",
-      "sha256": "4aa8ef8022371dbd30a9c30a3694341a4209f655eab9cfc40f18b6a0cbcca4fb"
+      "sha256": "a31c91fff89488d367500f22b59b60deffbacc2988d68b9a33225f39b148750b"
     },
     {
       "path": "install.mjs",
-      "sha256": "51d75c7ecc0f465b0df670e473e57ddf2382c5477c345dca5dab1954040a5d87"
+      "sha256": "3c2a9733a989813cea6381fa0232770f9b35ee905335dd05e5b63d2cbed33f4b"
     },
     {
       "path": "native-bundles.test.mjs",
@@ -80,7 +80,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "9e176c5d046e71387370a796b7a8215280cf5fbf7446bfa6a76653f65b39c169"
+      "sha256": "59cba17c3cdee6993147ace7a528df6e67298e8a7d6660dd352384f7d74b546f"
     },
     {
       "path": "plugins/dsh-delete-chat/LICENSE",
@@ -112,7 +112,7 @@
     },
     {
       "path": "plugins/dsh-delete-chat/self-test.mjs",
-      "sha256": "8b94e636a2b093d69446eb56a462e97b7e7a762e4ba01e316c75d30a06ce7ed8"
+      "sha256": "8fdfb4ce921379f346c3ff355d27372caafd09d40ae57ce1635d8a3a21fd74e4"
     },
     {
       "path": "plugins/dsh-delete-chat/service.mjs",
@@ -192,7 +192,7 @@
     },
     {
       "path": "scripts/standalone.mjs",
-      "sha256": "80c30f284b382d4fadc7b58bc6bab0d329240bd14cc37d9e2f5060a0ebde8e37"
+      "sha256": "3922976263a204860d0da7ae13112b8d6d309a04ea577e6308972eae09a4d56f"
     },
     {
       "path": "scripts/zip.mjs",
@@ -204,7 +204,7 @@
     },
     {
       "path": "suite-installer.test.mjs",
-      "sha256": "bcfd1acf40717b26aeafff2a1f7238a78b075acce47adeeb2ff75ad3ca9cdaaf"
+      "sha256": "8cacfc1269b1c2892aaef719449a3631393d7c5e377b9d4c8f91e0f61a20bf49"
     },
     {
       "path": "vendor/yaml/LICENSE",
