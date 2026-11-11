@@ -1,0 +1,50 @@
+{
+  "name": "dsh-model-switcher",
+  "version": "2.1.0",
+  "type": "module",
+  "description": "DeepSeek Harness model-host picker for a shared Windows gateway",
+  "private": true,
+  "license": "MIT",
+  "author": "Cristian Silva",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roock3r/dsh-model-switcher.git"
+  },
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-ui-model-selection",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-session"
+      ],
+      "external": [
+        "react"
+      ]
+    }
+  },
+  "homepage": "https://github.com/roock3r/dsh-model-switcher#readme",
+  "bugs": {
+    "url": "https://github.com/roock3r/dsh-model-switcher/issues"
+  },
+  "scripts": {
+    "test": "node --test distribution.test.mjs",
+    "setup": "bash Install.command --apply",
+    "setup:check": "bash Install.command --check"
+  }
+}
