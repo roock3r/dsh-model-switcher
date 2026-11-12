@@ -1,8 +1,8 @@
 {
   "name": "dsh-model-switcher",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "type": "module",
-  "description": "DeepSeek Harness model-host picker for a shared Windows gateway",
+  "description": "DeepSeek Harness model-host picker with a live server model catalog",
   "private": true,
   "license": "MIT",
   "author": "Cristian Silva",
@@ -43,7 +43,7 @@
     "url": "https://github.com/roock3r/dsh-model-switcher/issues"
   },
   "scripts": {
-    "test": "node --test distribution.test.mjs",
+    "test": "node --test distribution.test.mjs installer-prompts.test.mjs",
     "setup": "bash Install.command --apply",
     "setup:check": "bash Install.command --check"
   }

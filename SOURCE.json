@@ -1,10 +1,10 @@
 {
   "version": 1,
   "canonicalRepository": "https://github.com/roock3r/dsh-plugins",
-  "canonicalCommit": "1d5cdf83edb2691879ac22835647622d15ae542c",
+  "canonicalCommit": "2d3f4f3e0bf4d2d1d6a850caa39e1b79d683eaf0",
   "plugin": "dsh-model-switcher",
   "canonicalDirectory": "plugins/dsh-model-switcher",
-  "sourceTreeSha256": "24e15d057853ce5372cbe178b355bd809128d31718316139e880eccde5b79a8a",
+  "sourceTreeSha256": "118d7eb886e2a55c2537bbe0f139513a3a06aa10e62e77d6e9cbc46d8e5501e9",
   "sources": [
     {
       "path": ".gitattributes",
@@ -20,7 +20,7 @@
     },
     {
       "path": "AGENTS.md",
-      "sha256": "ab90504dd3a6615af1408f448c2be78b0ac29a4a3821d547b11bc80ec36c4dfc"
+      "sha256": "7734ee356d1c4559882d7fe944a8087020c13defa9da43ab1fcc010e2105158a"
     },
     {
       "path": "Install.command",
@@ -32,7 +32,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "b05336f6b3bfbd87486f10585fd781ff3010c6d5490a78c8bd9a5f9b9a22dae4"
+      "sha256": "b599903a6069dc25aca2ead3564f63b58dbc7a8f4b02e11168a4524010c8f404"
     },
     {
       "path": "THIRD-PARTY-NOTICES.md",
@@ -48,11 +48,11 @@
     },
     {
       "path": "docs/gateway-protocol.md",
-      "sha256": "ad7455b0432b0d16cc014112f48b770fa49e4e228751522f2cc61e295016fca5"
+      "sha256": "f900698dbc20bf094b77490a3e8cd87cda0a57f75dd3cb5a2678149bb740d8e0"
     },
     {
       "path": "docs/publishing.md",
-      "sha256": "2c2a0b097a16ae8d8af14cbeafbc0a43d8f7aac6ad055ee9880d36904801f00b"
+      "sha256": "0038dd1bc4241e8fdddb2038524cea8312efdfce0fb3cf25b048bd95707c8532"
     },
     {
       "path": "docs/standalone-distributions.md",
@@ -64,15 +64,19 @@
     },
     {
       "path": "docs/standalone/dsh-model-switcher.md",
-      "sha256": "d157522acd1448629fc7f8e4b8abef01c8a39d9247626e22d1c9159d138e14d8"
+      "sha256": "4ecb84ac3c4f6d3a16da3863c4a56e2e8677266d96147181fa5ca7c58534b22d"
     },
     {
       "path": "docs/validation.md",
-      "sha256": "a31c91fff89488d367500f22b59b60deffbacc2988d68b9a33225f39b148750b"
+      "sha256": "caf5479af0581f0020b4e2ce77a4afcf99d2449835f80003f713e14b53e11c89"
     },
     {
       "path": "install.mjs",
-      "sha256": "3c2a9733a989813cea6381fa0232770f9b35ee905335dd05e5b63d2cbed33f4b"
+      "sha256": "4c608725d517d228337e00b450144fd295752164dd1020a2dc5ba7e58a5507ce"
+    },
+    {
+      "path": "installer-prompts.test.mjs",
+      "sha256": "9eb6f11594aa7b9a7002fa5d95ebdc44cdae7e5cedfdce54a9af4a8fa3ad0f63"
     },
     {
       "path": "native-bundles.test.mjs",
@@ -80,7 +84,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "59cba17c3cdee6993147ace7a528df6e67298e8a7d6660dd352384f7d74b546f"
+      "sha256": "d92235c1b083b3ce99ddeb345354c6220a9d4d85a63d3fc2a8ade8098426bbb8"
     },
     {
       "path": "plugins/dsh-delete-chat/LICENSE",
@@ -144,15 +148,15 @@
     },
     {
       "path": "plugins/dsh-model-switcher/README.md",
-      "sha256": "17c4ed05539942aa9418fd337d3e7f06c7ca6c1fdd278baf58609d547f797129"
+      "sha256": "8a50cd8c3c0727c68335db2c90b97a86d5863b98c93682b962650488e6b9ab6d"
     },
     {
       "path": "plugins/dsh-model-switcher/catalog.mjs",
-      "sha256": "47d5a1a33272286867137ba5f0dc172d0e6d1041ec93a2a4aa79301d6409e857"
+      "sha256": "e40781f5951132e73e971b544c76a1df852e28ca5355f500a78a9eb880d5e814"
     },
     {
       "path": "plugins/dsh-model-switcher/client.js",
-      "sha256": "c26fa8b9906f1c162b85f0af093e4e692eb13a571ae4071cd2533a936f31607e"
+      "sha256": "dc442c83e682ea5cb58f4ecd5f6287dc9973b31b479f3c4322d46202c5d42554"
     },
     {
       "path": "plugins/dsh-model-switcher/cordis.patch.yml",
@@ -160,19 +164,19 @@
     },
     {
       "path": "plugins/dsh-model-switcher/index.mjs",
-      "sha256": "b921dd95d2acb71a9ed344e8929cea0d4ae55cecbb7e33cda90249eac18f8c2e"
+      "sha256": "48544455a3a26bb1c51a386fd8c0dd07940fdb23f869325aa66e32344a0df076"
     },
     {
       "path": "plugins/dsh-model-switcher/package.json",
-      "sha256": "af4d88ca3c93623c14ef3955e4ab663585182353d8d4ecebe5c9ce8732b82c6b"
+      "sha256": "ab3f3cabd52f95ed3a088b1eb190870a14abea4ff39588a6f6576fb0b66f7706"
     },
     {
       "path": "plugins/dsh-model-switcher/settings.mjs",
-      "sha256": "4a687dc90dc8b155c214408c3fe2b7d69135ac2efca0395459c2a34ee0656179"
+      "sha256": "72d13979bc269d2a2208ad7d396ead9fbbe4eeaf83991968ab7ab5f3c70455f3"
     },
     {
       "path": "portable.test.mjs",
-      "sha256": "0e081279b8661949ccd063f241f99fe7c0dd15bc220438f8ef12078fbef7df14"
+      "sha256": "21c31c7087d271039d1e91500139f8138a12d20ce592b677c5a02b66b6d4954d"
     },
     {
       "path": "scripts/check-public.mjs",
@@ -184,7 +188,7 @@
     },
     {
       "path": "scripts/release-files.mjs",
-      "sha256": "ffe1d5cb468faf559a3aa15cc847eb5e936dcd63ee4ad8484edbfe321ed38da4"
+      "sha256": "cd032f5d6761bd4e65644aa1d29ce64ac4115626e0e89a0248857689c1e43e13"
     },
     {
       "path": "scripts/standalone-smoke.mjs",
@@ -192,7 +196,7 @@
     },
     {
       "path": "scripts/standalone.mjs",
-      "sha256": "3922976263a204860d0da7ae13112b8d6d309a04ea577e6308972eae09a4d56f"
+      "sha256": "4108c409f961d31aa278b9b6a06d8f94c31f1d5ae9818b8aee0c31920afa4bc9"
     },
     {
       "path": "scripts/zip.mjs",
@@ -204,7 +208,7 @@
     },
     {
       "path": "suite-installer.test.mjs",
-      "sha256": "8cacfc1269b1c2892aaef719449a3631393d7c5e377b9d4c8f91e0f61a20bf49"
+      "sha256": "ef6ee0f619bcabdcfb47c016fadc7ff3dd6533df526ecb0bc3cf629c6fdc4bd7"
     },
     {
       "path": "vendor/yaml/LICENSE",
